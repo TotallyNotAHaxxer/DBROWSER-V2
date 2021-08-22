@@ -79,7 +79,7 @@ def CS(X):          # CS = clear sleep
    time.sleep(X)
    os.system("clear")
 
-
+print(Fore.RED+"")
 banner = pyfiglet.figlet_format("DBROW", font = "isometric1" )
 
 CS(2)
